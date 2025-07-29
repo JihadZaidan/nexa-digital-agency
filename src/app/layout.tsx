@@ -30,6 +30,7 @@ export default function Layout({
           )}
           <Navbar/>
           <div className="w-full">{children}</div>
+          <Footer/> 
         </main>
       </body>
     </html>
